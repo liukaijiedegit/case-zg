@@ -1,0 +1,250 @@
+
+
+
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 900px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px) {
+    .container > .navbar-header,
+    .container-fluid > .navbar-header,
+    .container > .navbar-collapse,
+    .container-fluid > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: -15px;
+    }
+}
+/* end page container */
+
+
+@media only screen and (max-width: 1199px) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 24px; }
+}
+
+/* start 768 media quires */
+@media only screen and ( max-width: 768px ) {
+    .map .baiduapi{
+        width: 400px;
+    }
+    .navbar-header {
+        padding-left: 15px;
+    }
+    h1 { font-size: 26px; }
+    h2 { font-size: 18px; }
+    #home .btn {
+        margin-top: 10px;
+        width: 180px;
+        height: 40px;
+        padding-top: 8px;
+    }
+    #about { padding-top: 65px; }
+    #team .team_thumb .team_overlay
+    {
+        background: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        opacity: 0;
+        position: absolute;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+}
+/* end 768 media quires */
+
+@media only screen and (max-width: 640px) {
+    h1 { font-size: 20px; }
+    h2 { font-size: 14px; }
+    #mask{
+        width: 500px;
+    }
+    #home .btn {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+    .font50{
+        margin-top:50px;
+        font-size: 40px;
+    }
+    .font40 {
+        font-size: 30px;
+        margin-top: 50px;
+        /*line-height: 140px;*/
+        height: 140px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .font30{
+        font-size: 20px;
+        margin-top: 40px;
+        height: 100%;
+        line-height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .address-t{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+}@media only screen and ( max-width: 420px ){
+    .map .baiduapi{
+        width: 300px;
+    }
+    .height-s{
+        font-size: 10px;
+        line-height: 18px;
+        height: 24px;
+    }
+
+    .flexslider .slides img {
+       position: relative;
+
+       height: 100%;
+       background-size:80%;
+
+       left: -115px;
+
+   }
+}
+
+/* start 360 media quires */
+@media only screen and ( max-width: 360px ) {
+    .flexslider .slides img {
+        position: relative;
+        min-width: 550px;
+
+
+        height: 100%;
+        background-size:80%;
+
+        left: -135px;
+
+    }
+    .map .baiduapi{
+        width: 300px;
+    }
+    #team .team_thumb .team_overlay
+    {
+        background: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        line-height: 220px;
+        top: 0;
+        bottom: 0;
+        opacity: 0;
+        position: absolute;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+}
+/* end 360 media quires */
+/*@media (min-width: 1200px) {*/
+    /*.container {*/
+        /*width: 970px;*/
+    /*}*/
+/*}*/
+
+@media only screen and ( max-width: 380px ) {
+    .flexslider .slides img {
+        position: relative;
+        min-width: 600px;
+
+
+        height: 100%;
+        background-size:80%;
+
+        left: -105px;
+
+    }
+}
+@media only screen and ( max-width: 330px ) {
+
+
+    /*h1 { font-size: 20px; }*/
+    /*h2 { font-size: 14px; }*/
+    /*#mask{*/
+        /*width: 500px;*/
+    /*}*/
+    /*#home .btn {*/
+        /*width: auto;*/
+        /*height: auto;*/
+        /*padding: 10px 20px;*/
+        /*margin-top: 10px;*/
+    /*}*/
+    /*.font50{*/
+        /*margin-top:50px;*/
+        /*font-size: 40px;*/
+    /*}*/
+    /*.font40 {*/
+        /*font-size: 20px;*/
+        /*margin-top: 40px;*/
+        /*/!*line-height: 140px;*!/*/
+        /*height: 140px;*/
+        /*margin-left: 15px;*/
+        /*margin-right: 15px;*/
+    /*}*/
+    /*.font30{*/
+        /*font-size: 10px;*/
+        /*margin-top: 20px;*/
+        /*height: 100%;*/
+        /*line-height: 100%;*/
+        /*margin-left: 10px;*/
+        /*margin-right: 10px;*/
+    /*}*/
+    /*.address-t{*/
+        /*width: 80%;*/
+        /*height: 100%;*/
+        /*margin: 0 auto;*/
+    /*}*/
+
+
+
+    .flexslider .slides img {
+        position: relative;
+        min-width: 580px;
+
+
+        height: 100%;
+        background-size:80%;
+
+        left: -125px;
+
+    }
+    .height-s{
+        font-size: 8px;
+        line-height: 13px;
+        height: 26px;
+    }
+}
